@@ -16,8 +16,9 @@ application {
 compileJava {
   options.release = 10
 }
-
-
+run {
+    standardInput = System.in
+}
 
 repositories {
     mavenCentral()

@@ -5,7 +5,6 @@ public class App {
         System.out.println("Welcome to the Brain Games!");
         System.out.println(Cli.askName());
     }
-
 }
 
 

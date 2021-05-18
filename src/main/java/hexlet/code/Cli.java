@@ -7,9 +7,7 @@ public class Cli {
         System.out.println("May I have your name?");
         String name = nameAsk.nextLine();
         return ("Hello, " + name + "!");
-
     }
-
 }
 
 

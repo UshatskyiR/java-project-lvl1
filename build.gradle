@@ -9,11 +9,22 @@
   id 'application'
 }
 
+application {
+    mainClass = 'hexlet.code.App'
+}
+
+compileJava {
+  options.release = 10
+}
 
 
 
+repositories {
+    mavenCentral()
+}
 
 
 group = 'hexlet.code'
 version = '1.0-SNAPSHOT'
+
 
